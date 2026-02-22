@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 class Payroll {
 
     static void Main(string[] args) { 
@@ -7,6 +7,8 @@ class Payroll {
         double hoursWorked, BasicPay, Overtime_worked, time_in, time_out, Employee_ID;
 
         Console.WriteLine("-----Payroll System-----");
+        Console.WriteLine(" Input the Employee's Worked Information and such.");
+        Console.Writeline("-----------------");
 
         Console.Write("Enter Employee Name: "); 
         employeeName = Console.ReadLine();
