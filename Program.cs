@@ -8,7 +8,7 @@ class Payroll {
 
         Console.WriteLine("-----Payroll System-----");
         Console.WriteLine(" Input the Employee's Worked Information and such.");
-        Console.Writeline("-----------------");
+        Console.WriteLine("-----------------");
 
         Console.Write("Enter Employee Name: "); 
         employeeName = Console.ReadLine();
